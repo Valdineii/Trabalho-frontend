@@ -1,0 +1,123 @@
+*{
+	margin: 0; /*zera as margens da página*/
+	background-color: black; /*Cor de fundo da página*/
+}
+
+header{
+
+	background-color: black ;
+	width: 100%;    					/*largura do cabeçalho*/
+	height: 20vh;   					/*altura do cabeçalho*/
+	display: flex;  					/*deixa os elementos um do lado do outro*/
+	justify-content: space-between; 	/*espaçamento entre os elementos*/
+
+}
+
+
+.menu ul{
+
+display: flex;   		/*deixa os elementos um ao lado do outro*/
+list-style-type: none;	/*remove os marcadores dos elementos*/
+padding: 45px;			/*distância entre o conteúdo de um elemento e suas bordas*/
+
+}
+
+.menu li{
+	color: white;    			/*cor da fonte*/
+	margin-right: 20px;			/*espaço a direita dos elementos*/
+	cursor: pointer;			/*deixa os itens clicaveis*/
+	font-size: 20px;			/*altera o tamanho da fonte*/
+	font-family: sans-serif;	/*altera o estilo da fonte*/
+}
+
+
+#primeira-secao{
+    padding-top: 100px;                 /*distancia entre o conteúdo de um elemento e a borda acima dele*/
+	display: flex;           			/*deixa os elementos um do lado do outro*/
+	justify-content: space-between; 	/*espaçamento entre os elementos*/
+	margin-right: 25px;                 /*espaço a direita dos elementos*/
+}
+
+.card-texto{
+	color: white;         /*cor da fonte*/
+	font-size: 40px;      /*tamanho da fonte*/ 
+	margin-left: 20px;    /*espaço a esquerda*/ 
+}
+
+
+.card-texto h1, .card-texto p{
+	padding: 20px; /*distancia entre o conteúdo de um elemento e a borda acima dele*/
+}
+
+
+.card-texto a{
+	text-decoration: none; /*tira a decoração do texto*/
+	color: gold;           /*cor do texto*/
+}
+
+button {
+    background-color: gold; 	/* Cor de fundo do botão */
+    color: #fff; 				/* Cor do texto do botão */
+    padding: 10px 20px; 		/* Espaçamento interno do botão */
+    font-size: 18px; 			/* Tamanho da fonte do botão */
+    border: none; 				/* Remove a borda do botão */
+    cursor: pointer; 			/* Altera o cursor quando passa por cima do botão */
+    margin-left: 30px;			/*margem a esquerda*/
+}
+
+#segunda-secao{
+    padding-top: 250px;                 /*distancia entre o conteúdo de um elemento e a borda acima dele*/
+    display: flex;                      /*deixa os elementos um do lado do outro*/
+    justify-content: space-between;     /*espaçamento entre os elementos*/
+    margin-right: 25px;                 /*espaço a direita dos elementos*/
+}
+
+
+#segunda-secao ul{
+    padding: 8px;
+}
+
+#segunda-secao li{
+    list-style-type: none;  /*remove os marcadores dos elementos*/
+}
+
+.listas{
+    display: flex; /*deixa os elementos um do lado do outro*/
+}
+
+.listas li{
+    padding: 10px; /*distancia entre o conteúdo de um elemento e suas bordas*/
+
+}
+
+
+#terceira-secao{
+    padding-top: 250px; /*distancia entre o conteúdo de um elemento e a borda acima dele*/
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+#terceira-secao ul{
+    display: flex;
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 60px;
+    padding: 8px;
+    
+}
+
+#quarta-secao{
+    padding-top: 100px;
+}
+
+#quarta-secao ul{
+    display: flex;
+
+}
+
+#quarta-secao li{
+    padding: 30px 70px 0px 130px;
+    color: white;
+    list-style-type: none;
+}
